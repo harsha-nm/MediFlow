@@ -1,0 +1,1 @@
+const {spawn}=require('node:child_process'); for(const dir of ['server','client']) {const p=spawn('npm',['run','dev','--prefix',dir],{stdio:'inherit',shell:process.platform==='win32'});process.on('SIGINT',()=>p.kill());}
