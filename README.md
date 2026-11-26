@@ -41,8 +41,8 @@ Fragmented clinic workflows can make appointment coordination, patient registrat
 ## System architecture
 
 ```mermaid
-flowchart LR
-    U[Admin / Doctor / Receptionist] --> B[Browser - React UI]
+graph TD
+    U["Admin, Doctor, Receptionist"] --> B["React Frontend"]
     B -->|HTTPS / JSON| A[Express REST API]
     A --> M[Authentication and role checks]
     M --> D[Mongoose models]
@@ -55,7 +55,7 @@ The production Express service serves both the built React frontend and the REST
 ## Clinic workflow
 
 ```mermaid
-flowchart LR
+graph TD
     P[Patient registration] --> B[Booked]
     B --> W[Waiting / check-in]
     W --> C[Consulting]
