@@ -241,7 +241,30 @@ The script defaults to `http://127.0.0.1:4000`. Remove temporary credential envi
 
 ## Application screenshots
 
-Screenshots of the dashboard, calendar, queue and demonstration prescription will be added after review. No real patient data or credentials should appear in screenshots.
+### 1. Login Page
+![Login Page](docs/screenshots/01-login.png)
+
+### 2. Admin Dashboard
+![Admin Dashboard](docs/screenshots/02-dashboard.png)
+
+### 3. Patient Management
+![Patient Management](docs/screenshots/03-patients.png)
+
+### 4. Doctor Management
+![Doctor Management](docs/screenshots/04-doctors.png)
+
+### 5. Appointment Management
+![Appointment Management](docs/screenshots/05-appointments.png)
+
+### 6. Appointment Calendar
+![Appointment Calendar](docs/screenshots/06-calendar.png)
+
+### 7. Live Patient Queue
+![Live Patient Queue](docs/screenshots/07-live-queue.png)
+
+### 8. Generated Prescription PDF
+![Prescription PDF](docs/screenshots/09-prescription-pdf.png)
+
 
 ## Limitations and future improvements
 
